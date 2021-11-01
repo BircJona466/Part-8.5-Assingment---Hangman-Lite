@@ -41,6 +41,10 @@ namespace Part_8._5_Assingment___Hangman_Lite
             words.Add("JOKER");
             words.Add("AZURE");
             words.Add("APEX");
+            words.Add("HOUSE");
+            words.Add("LINK");
+            words.Add("RANDOM");
+            words.Add("MEWTWO");
             int randWord = generator.Next(words.Count);
             word = (words[randWord]);
             wordlength = word.Length;
